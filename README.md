@@ -1,4 +1,15 @@
 # cloud-support-journey
+
+## About Me
+I'm Said from Morocco, learning Cloud Support step by step.  
+My goal: become a Junior Cloud Support Engineer in 90 days.
+
+## Tools Used
+- AWS (EC2, S3, IAM)
+- Linux (Ubuntu)
+- GitHub for documentation
+- 
+# cloud-support-journey
 My 90‑Day Cloud Support Roadmap
 # Day 1 – Start of 90 Days
 - Created my GitHub account and first repository.
