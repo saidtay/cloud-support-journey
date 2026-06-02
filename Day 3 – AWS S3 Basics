@@ -2,6 +2,7 @@ Overview
 Focused on Amazon S3 storage service: creating buckets, uploading/downloading files, and handling permissions.
 
 ## Practice
+![AWS Console Screenshot](https://github.com/saidtay/cloud-support-journey/blob/main/45.PNG)
 - Created a new bucket with a unique name.  
 - Uploaded a small file to the bucket.  
 - Downloaded the same file to verify access.  
