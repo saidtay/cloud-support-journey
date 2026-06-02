@@ -1,0 +1,22 @@
+Overview
+Focused on Amazon S3 storage service: creating buckets, uploading/downloading files, and handling permissions.
+
+## Practice
+- Created a new bucket with a unique name.  
+- Uploaded a small file to the bucket.  
+- Downloaded the same file to verify access.  
+- Tested access without permissions → got "Access Denied".  
+- Fixed by attaching the correct IAM policy.  
+
+## Permissions
+- Learned the difference between IAM Policy (controls user actions) and Bucket Policy (controls bucket access).  
+- Understood why "Access Denied" happens and how to solve it.  
+
+## Lessons Learned
+- How to create and manage S3 buckets.  
+- Importance of unique bucket names.  
+- Difference between IAM and Bucket Policies.  
+- Common troubleshooting steps for S3 errors.  
+
+## Next Step
+Day 4 → Explore IAM (users, roles, policies) and practice troubleshooting permissions.
