@@ -1,0 +1,29 @@
+# Day 4 – IAM Roles and Policies
+
+## Overview
+Today I learned how AWS Identity and Access Management (IAM) controls access to services using **users**, **roles**, and **policies**.  
+IAM helps secure AWS resources by following the **least privilege principle** — giving only the permissions needed.
+
+## Practice
+### 1️⃣ IAM User
+Created a new IAM user `test-user` and attached the **AmazonS3ReadOnlyAccess** policy.  
+This user can view S3 buckets but cannot upload or delete files.
+
+https://raw.githubusercontent.com/saidtay/cloud-support-journey/main/iam.png
+
+### 2️⃣ Access Denied Test
+Logged in as `test-user` and tried to upload a file to S3.  
+Result: **Access Denied** — the policy worked correctly.
+
+https://raw.githubusercontent.com/saidtay/cloud-support-journey/main/s3 iam.png
+
+### 3️⃣ IAM Role for EC2
+Created a role named `EC2-S3-Role` with **AmazonS3FullAccess** and attached it to my EC2 instance `test-said`.  
+Then used AWS CLI to create and list a bucket directly from the instance.
+
+Commands used:
+```bash
+aws s3 mb s3://said-cloud-bucket-3
+aws s3 ls
+https://raw.githubusercontent.com/saidtay/cloud-support-journey/main/ec2.png
+
