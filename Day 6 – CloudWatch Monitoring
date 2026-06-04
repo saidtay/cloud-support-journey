@@ -1,0 +1,21 @@
+# Day 6 – CloudWatch Monitoring
+
+##  Goal
+Learn how to monitor EC2 performance using **CloudWatch metrics, alarms, and notifications**.
+
+##  Steps
+1. Opened **CloudWatch → Metrics → EC2 → CPUUtilization**.  
+2. Created an alarm named **taytay** with condition:  
+   - CPUUtilization > 80% for 5 minutes.  
+3. Linked the alarm to an **SNS topic** and subscribed my email.  
+4. Confirmed the subscription in my inbox.  
+5. Simulated high CPU load:
+   ```bash
+   yes > /dev/null &
+   yes > /dev/null &
+   yes > /dev/null &
+   yes > /dev/null &
+Documentation with photos :
+https://github.com/saidtay/cloud-support-journey/blob/main/cloudwatch.PNG
+https://github.com/saidtay/cloud-support-journey/blob/main/linux.PNG
+https://github.com/saidtay/cloud-support-journey/blob/main/mail%20alarms.PNG
