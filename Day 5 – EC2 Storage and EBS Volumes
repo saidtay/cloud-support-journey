@@ -1,0 +1,13 @@
+# Day 5 – EC2 Storage and EBS Volumes
+
+## 🧠 Goal
+Learn how to create, attach, format, and mount an **EBS volume** to an EC2 instance.
+
+https://github.com/saidtay/cloud-support-journey/blob/main/ec2%20volume.PNG
+
+##  Steps
+1. Created a new **EBS volume** (8 GiB, gp3) in the same Availability Zone as my EC2 instance.  
+2. Attached the volume to my EC2 instance (`/dev/sdf` → `/dev/nvme1n1`).  
+3. Connected to EC2 via SSH and verified the disk:
+   ```bash
+   lsblk
