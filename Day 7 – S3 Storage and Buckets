@@ -1,0 +1,26 @@
+# Day 7 – S3 Storage and Buckets
+
+##  Goal
+Learn how to store, manage, and share files using AWS S3.
+
+##  Steps
+1. Created bucket `said-day7-bucket` in region us‑west‑2.  
+2. Uploaded image file `Copilot_20260604_154551.png`.  
+3. Tested public access — got **Access Denied** (XML error).  
+4. Added **Bucket Policy** for public read access:
+   ```json
+   {
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Sid": "PublicReadGetObject",
+         "Effect": "Allow",
+         "Principal": "*",
+         "Action": "s3:GetObject",
+         "Resource": "arn:aws:s3:::said-day7-bucket/*"
+       }
+     ]
+   }
+
+screenshot >>> https://github.com/saidtay/cloud-support-journey/blob/main/private.PNG
+screenshot >>> https://github.com/saidtay/cloud-support-journey/blob/main/public.PNG
