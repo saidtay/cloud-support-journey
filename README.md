@@ -2,6 +2,7 @@
 
 ## About Me
 I'm Said from Morocco, learning Cloud Support step by step.  
+Aspiring Cloud Support Engineer | AWS Learner | Tech Documenter
 My goal: become a Junior Cloud Support Engineer in 90 days.
 
 ---
