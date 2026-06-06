@@ -1,0 +1,18 @@
+# Day 9 – CloudWatch Agent Setup
+
+## Goal
+Install and configure the Amazon CloudWatch Agent on an EC2 Ubuntu instance to collect metrics and logs.
+
+## Steps Taken
+1. Launched EC2 Ubuntu instance.
+2. Connected via SSH.
+3. Installed CloudWatch Agent package.
+4. Edited configuration file (`amazon-cloudwatch-agent.toml`):
+   - Added disk and memory metrics.
+   - Attempted to add `/var/log/syslog` log collection.
+5. Restarted agent and checked status:
+   ```bash
+   sudo systemctl status amazon-cloudwatch-agent
+   sudo journalctl -u amazon-cloudwatch-agent -n 20
+6. Attached IAM role with CloudWatchAgentServerPolicy.
+screenshot >> https://github.com/saidtay/cloud-support-journey/blob/main/45.PNG
