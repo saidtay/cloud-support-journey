@@ -1,0 +1,25 @@
+# Day 11 – CloudWatch Logs (Troubleshooting)
+
+## Goal
+Learn how CloudWatch Agent collects logs from EC2 and sends them to CloudWatch.
+
+## What I Tried
+- Installed CloudWatch Agent on Ubuntu and Amazon Linux.
+- Ran the `amazon-cloudwatch-agent-config-wizard`.
+- Created a log group `/ec2/systemlogs`.
+- Tried to configure `/var/log/messages` for log collection.
+
+## Issues Faced
+- Agent failed to start correctly.
+- Log group stayed empty (no logs received).
+- Amazon Linux 2023 uses journald, not `/var/log/messages`.
+- Wizard repeated questions and caused confusion.
+
+## Lessons Learned
+- **Metrics vs Logs**: metrics are numbers (CPU, memory), logs are detailed events.  
+- CloudWatch Agent is optional — many companies already have monitoring tools.  
+- Even failed setups teach how services run (`systemctl`), how configs are stored (`.json`), and how CloudWatch organizes logs.  
+- Troubleshooting is part of real Cloud Support work.
+
+## Reflection
+Although the agent didn’t fully work, I understood the flow of logs and the difference between metrics and logs. This day was about troubleshooting and learning, not perfect results.
