@@ -1,0 +1,14 @@
+# Day 10 – CloudWatch Alarms
+
+##  Goal
+Create CloudWatch Alarms to monitor EC2 metrics and send notifications.
+
+##  Steps Taken
+1. Selected EC2 CPUUtilization metric.
+2. Created alarm with threshold: CPU > 80% for 5 minutes.
+3. Configured SNS topic and confirmed email subscription.
+4. Installed stress tool on Amazon Linux 2023:
+   ```bash
+   sudo dnf install stress -y
+   stress --cpu 2 --timeout 300
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/alarm2.PNG
