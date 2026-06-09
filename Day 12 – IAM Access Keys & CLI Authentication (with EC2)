@@ -1,0 +1,19 @@
+# Day 12 – IAM Access Keys & CLI Authentication (with EC2)
+
+## Goal
+Learn how Cloud Support engineers use IAM credentials with AWS CLI on EC2.
+
+## Steps
+- Created IAM user with programmatic access.
+- Configured AWS CLI on EC2 using access keys.
+- Attached `AmazonS3ReadOnlyAccess` policy.
+- Tested permissions: listed S3 buckets, delete failed as expected.
+- Practiced key rotation for security.
+
+## Lessons Learned
+- IAM access keys authenticate CLI commands.
+- Policies define allowed/denied actions.
+- Testing from EC2 simulates real customer environments.
+- Key rotation prevents unauthorized access.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/s3-access-denied-test.png
