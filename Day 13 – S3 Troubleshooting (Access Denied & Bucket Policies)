@@ -1,0 +1,19 @@
+# Day 13 – S3 Troubleshooting (Access Denied & Bucket Policies)
+
+## Goal
+Learn how to troubleshoot S3 permission errors and fix bucket policies.
+
+## Steps
+- Created S3 bucket and uploaded file.
+- Attached IAM ReadOnly policy.
+- Tested delete → AccessDenied error.
+- Added bucket policy with delete permission.
+- Retested → delete worked.
+
+## Lessons Learned
+- AccessDenied usually means missing IAM or bucket policy permissions.
+- IAM policies control user actions, bucket policies control resource access.
+- Always apply least privilege: only allow needed actions.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/s3%20delete%20file%20linux.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/s3%20bucket.PNG
