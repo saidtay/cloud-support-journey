@@ -1,0 +1,22 @@
+# Day 15 – CloudFront Basics & Troubleshooting
+
+## Goal
+Learn how CloudFront delivers content from S3 securely and troubleshoot common errors.
+
+## Steps
+- Created CloudFront distribution with S3 origin.
+- Tested access via CloudFront domain.
+- Simulated AccessDenied by removing bucket public access.
+- Configured Origin Access Control (OAC).
+- Updated bucket policy to allow CloudFront OAC.
+- Retested → CloudFront served files successfully.
+
+## Lessons Learned
+- CloudFront caches and distributes content globally.
+- OAC allows secure access to private S3 buckets.
+- Common error: AccessDenied when bucket policy is missing.
+- Fix: configure OAC + correct bucket policy.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/JSON%20s3.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/OAC.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Browser%20CloudFront.PNG
