@@ -1,0 +1,23 @@
+# Day 16 – VPC Networking Basics & Troubleshooting
+
+## Goal
+Understand VPC networking, subnets, IGW, NAT, and troubleshoot connectivity issues.
+
+## Steps
+- Created VPC with CIDR 10.0.0.0/16.
+- Added public and private subnets.
+- Configured Internet Gateway for public subnet.
+- Launched EC2 instances in both subnets.
+- Tested connectivity: private EC2 had no internet.
+- Fixed with NAT Gateway and updated route table.
+- Retested → private EC2 accessed internet successfully.
+
+## Lessons Learned
+- Public subnet + IGW = external access.
+- Private subnet needs NAT for outbound internet.
+- Route tables define traffic flow.
+- Common issue: EC2 unreachable due to missing routes or gateways.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Resource%20map.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/routes.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/ping.PNG
