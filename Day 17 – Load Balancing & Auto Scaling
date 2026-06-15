@@ -1,0 +1,22 @@
+# Day 17 – Load Balancing & Auto Scaling
+
+## Goal
+Learn how to distribute traffic and automatically scale EC2 instances.
+
+## Steps
+- Launched two EC2 instances in different AZs.
+- Created Application Load Balancer and added targets.
+- Tested load balancing via ELB DNS name.
+- Configured Auto Scaling Group with scaling policies.
+- Verified automatic instance creation and termination based on CPU usage.
+
+## Lessons Learned
+- ELB distributes traffic evenly across instances.
+- Auto Scaling maintains performance and cost efficiency.
+- Together, they ensure high availability and fault tolerance.
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Server%201%20(us-east-1a).PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Server%202%20(us-east-1b).PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/amazon%20linux.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/activity%20history.PNG
+
+This lab was completed as part of my ongoing 100-day Cloud Engineering journey
