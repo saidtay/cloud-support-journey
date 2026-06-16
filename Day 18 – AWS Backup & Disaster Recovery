@@ -1,0 +1,19 @@
+# Day 18 – AWS Backup & Disaster Recovery
+
+## Goal
+Learn how to protect and restore AWS resources using AWS Backup.
+
+## Steps
+- Created backup plan for EC2 and RDS.
+- Scheduled daily backups.
+- Ran on-demand backup and verified snapshot.
+- Simulated disaster by deleting resource.
+- Restored resource from backup vault.
+- Verified restored resource worked correctly.
+
+## Lessons Learned
+- AWS Backup automates snapshots and recovery.
+- RPO = how much data you can afford to lose.
+- RTO = how fast you need to recover.
+- Disaster recovery planning is essential for customer trust.
+ screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Backup%20success.PNG
