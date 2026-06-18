@@ -1,0 +1,20 @@
+# Day 19 – CloudWatch Logs & Troubleshooting
+
+## Goal
+Learn how to use CloudWatch Logs to identify and fix issues.
+
+## Steps
+- Enabled CloudWatch Agent on EC2.
+- Sent system/application logs to CloudWatch.
+- Viewed logs in CloudWatch console.
+- Searched for errors using filters.
+- Troubleshot app crash by reading error messages.
+- Created metric filter + alarm for error monitoring.
+
+## Lessons Learned
+- Logs show the real cause of issues.
+- Filtering helps find problems fast.
+- Alarms notify you before customers complain.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/linux%20amazon%20test.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/log%20cloudwatch.PNG
