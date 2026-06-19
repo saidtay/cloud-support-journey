@@ -1,0 +1,20 @@
+# Day 20 – AWS RDS Basics & Troubleshooting
+
+## Goal
+Learn how to set up, connect, and troubleshoot RDS databases.
+
+## Steps
+- Created RDS instance (MySQL).
+- Configured security group for DB port.
+- Connected using endpoint, port, and credentials.
+- Troubleshot common issues (connection, timeout, permissions).
+- Enabled automated backups and tested restore.
+
+## Lessons Learned
+- Security groups control DB access.
+- Endpoint + port + credentials are required for connection.
+- Performance Insights helps with slow queries.
+- Snapshots ensure recovery in case of failure.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/rds.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/database%20linux.PNG
