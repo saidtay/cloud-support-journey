@@ -1,0 +1,18 @@
+# Day 22 – AWS WAF & Shield Security Hardening
+
+## Goal
+Protect applications from malicious traffic and DDoS attacks.
+
+## Steps
+- Enabled AWS WAF on ALB.
+- Created rules for IP blocking and SQL injection.
+- Verified Shield Standard protection.
+- Tested blocked requests.
+- Documented rules and Shield setup.
+
+## Lessons Learned
+- WAF filters malicious traffic before it hits servers.
+- Shield defends against DDoS automatically.
+- Combining WAF + Shield = strong security posture.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/rules%20aws%20waf.PNG
