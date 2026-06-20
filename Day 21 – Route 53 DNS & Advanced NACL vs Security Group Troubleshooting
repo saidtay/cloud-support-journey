@@ -1,0 +1,19 @@
+# Day 21 – Route 53 DNS & Advanced NACL vs Security Group Troubleshooting
+
+## Goal
+Learn to diagnose DNS resolution and network access issues.
+
+## Steps
+- Verified Route 53 records and name servers.
+- Tested DNS resolution using nslookup/dig.
+- Checked NACL and Security Group rules.
+- Adjusted inbound/outbound permissions.
+- Confirmed connectivity restored.
+
+## Lessons Learned
+- Route 53 DNS issues often stem from record misconfiguration.
+- NACLs are stateless; Security Groups are stateful.
+- Always test from multiple subnets to confirm rule behavior.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Network%20ACLs.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/linux%20test%20NACL.PNG
