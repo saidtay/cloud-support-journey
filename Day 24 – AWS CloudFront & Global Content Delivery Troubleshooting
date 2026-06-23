@@ -1,0 +1,68 @@
+# Day 24 – AWS CloudFront & Global Content Delivery Troubleshooting
+
+## Goal
+Learn how to troubleshoot CloudFront caching, latency, and SSL issues for global content delivery.
+
+---
+
+## Concept Explained Simply
+- CloudFront = AWS CDN (Content Delivery Network).
+- It caches content in edge locations worldwide.
+- Users get faster load times from the nearest edge.
+- Cache invalidation is required after website updates.
+
+---
+
+## Common Customer Problems (Tickets)
+- "My site is slow in Europe but fast in the US."
+- "Users still see old content after I updated the site."
+- "CloudFront returns 403 errors."
+- "HTTPS requests fail with SSL certificate issues."
+
+---
+
+## Step-by-Step Troubleshooting Checklist
+1. **Check Cache Behavior**
+   - Run `curl -I https://dxxxx.cloudfront.net/file.jpg`
+   - Look for `X-Cache: Hit/Miss`.
+
+2. **Invalidate Cache**
+   - AWS CLI:
+     ```bash
+     aws cloudfront create-invalidation --distribution-id ABC123 --paths "/*"
+     ```
+
+3. **Check Origin Settings**
+   - Verify CloudFront points to correct origin (S3, ALB).
+   - Confirm bucket policy or origin permissions.
+
+4. **SSL/TLS Troubleshooting**
+   - Ensure ACM certificate is valid and attached.
+   - Test with:
+     ```bash
+     openssl s_client -connect dxxxx.cloudfront.net:443
+     ```
+
+5. **Regional Latency**
+   - Use `traceroute` or `ping` from different regions.
+   - Confirm CloudFront edge location is serving traffic.
+
+---
+
+## Verified Commands / Solutions
+- **Check cache hit/miss**:
+  ```bash
+  curl -I https://dxxxx.cloudfront.net/index.html
+
+Invalidate cache: aws cloudfront create-invalidation --distribution-id D12345 --paths "/index.html"
+Test SSL cert: openssl s_client -connect dxxxx.cloudfront.net:443
+Lessons Learned
+CloudFront caches content globally; invalidation is needed after updates.
+
+Targeted invalidation saves cost/time compared to invalidating all files.
+
+SSL/TLS issues often come from missing or expired ACM certificates.
+
+Monitoring CloudFront logs helps confirm cache hits/misses.
+
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/linux%20cloudfront.PNG
