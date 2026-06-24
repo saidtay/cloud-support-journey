@@ -11,4 +11,4 @@ Create CloudWatch Alarms to monitor EC2 metrics and send notifications.
    ```bash
    sudo dnf install stress -y
    stress --cpu 2 --timeout 300
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/alarm2.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/alarm2.PNG
