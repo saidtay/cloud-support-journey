@@ -18,6 +18,6 @@ Understand VPC networking, subnets, IGW, NAT, and troubleshoot connectivity issu
 - Route tables define traffic flow.
 - Common issue: EC2 unreachable due to missing routes or gateways.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Resource%20map.PNG
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/routes.PNG
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/ping.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/Resource%20map.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/routes.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/ping.PNG
