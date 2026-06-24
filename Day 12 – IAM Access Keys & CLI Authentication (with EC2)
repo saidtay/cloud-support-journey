@@ -16,4 +16,4 @@ Learn how Cloud Support engineers use IAM credentials with AWS CLI on EC2.
 - Testing from EC2 simulates real customer environments.
 - Key rotation prevents unauthorized access.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/s3-access-denied-test.png
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/s3-access-denied-test.png
