@@ -16,5 +16,5 @@ Learn how to use CloudTrail to audit AWS actions and troubleshoot issues.
 - Can identify who deleted or modified resources.
 - Essential for security investigations.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/event%20history.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/event%20history.PNG
 "Verified CloudTrail API events for Amazon S3 actions. Successfully tracked historical ListBuckets API calls filtering by Event Name within the AWS Event History console."
