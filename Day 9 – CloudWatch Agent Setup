@@ -15,4 +15,4 @@ Install and configure the Amazon CloudWatch Agent on an EC2 Ubuntu instance to c
    sudo systemctl status amazon-cloudwatch-agent
    sudo journalctl -u amazon-cloudwatch-agent -n 20
 6. Attached IAM role with CloudWatchAgentServerPolicy.
-screenshot >> https://github.com/saidtay/cloud-support-journey/blob/main/45.PNG
+screenshot >> https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/45.PNG
