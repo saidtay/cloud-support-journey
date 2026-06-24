@@ -15,5 +15,5 @@ Learn to diagnose DNS resolution and network access issues.
 - NACLs are stateless; Security Groups are stateful.
 - Always test from multiple subnets to confirm rule behavior.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Network%20ACLs.PNG
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/linux%20test%20NACL.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/Network%20ACLs.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/linux%20test%20NACL.PNG
