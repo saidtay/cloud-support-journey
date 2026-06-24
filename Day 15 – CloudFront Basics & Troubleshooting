@@ -17,6 +17,6 @@ Learn how CloudFront delivers content from S3 securely and troubleshoot common e
 - Common error: AccessDenied when bucket policy is missing.
 - Fix: configure OAC + correct bucket policy.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/JSON%20s3.PNG
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/OAC.PNG
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Browser%20CloudFront.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/JSON%20s3.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/OAC.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/Browser%20CloudFront.PNG
