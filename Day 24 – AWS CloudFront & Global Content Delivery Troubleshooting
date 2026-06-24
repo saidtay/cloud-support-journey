@@ -65,4 +65,4 @@ SSL/TLS issues often come from missing or expired ACM certificates.
 
 Monitoring CloudFront logs helps confirm cache hits/misses.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/linux%20cloudfront.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/linux%20cloudfront.PNG
