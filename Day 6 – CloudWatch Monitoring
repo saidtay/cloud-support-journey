@@ -15,7 +15,8 @@ Learn how to monitor EC2 performance using **CloudWatch metrics, alarms, and not
    yes > /dev/null &
    yes > /dev/null &
    yes > /dev/null &
-Documentation with photos :
-https://github.com/saidtay/cloud-support-journey/blob/main/cloudwatch.PNG
-https://github.com/saidtay/cloud-support-journey/blob/main/linux.PNG
-https://github.com/saidtay/cloud-support-journey/blob/main/mail%20alarms.PNG
+
+Documentation with screenshot :
+https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/cloudwatch.PNG
+https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/linux.PNG
+https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/mail%20alarms.PNG
