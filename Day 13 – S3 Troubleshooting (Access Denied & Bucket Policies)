@@ -15,5 +15,5 @@ Learn how to troubleshoot S3 permission errors and fix bucket policies.
 - IAM policies control user actions, bucket policies control resource access.
 - Always apply least privilege: only allow needed actions.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/s3%20delete%20file%20linux.PNG
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/s3%20bucket.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/s3%20delete%20file%20linux.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/s3%20bucket.PNG
