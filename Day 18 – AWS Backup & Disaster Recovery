@@ -16,4 +16,4 @@ Learn how to protect and restore AWS resources using AWS Backup.
 - RPO = how much data you can afford to lose.
 - RTO = how fast you need to recover.
 - Disaster recovery planning is essential for customer trust.
- screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/Backup%20success.PNG
+ screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/Backup%20success.PNG
