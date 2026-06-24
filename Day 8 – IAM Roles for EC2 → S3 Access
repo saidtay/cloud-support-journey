@@ -2,5 +2,5 @@
 Configured IAM Role with S3 permissions and attached it to EC2.  
 Verified access using AWS CLI v2 — EC2 can list and upload to S3 without access keys.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/SSH%20into%20your%20EC2%20instance.PNG
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/EC2-S3-Access-Role.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/SSH%20into%20your%20EC2%20instance.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/EC2-S3-Access-Role.PNG
