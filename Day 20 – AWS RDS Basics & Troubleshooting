@@ -16,5 +16,5 @@ Learn how to set up, connect, and troubleshoot RDS databases.
 - Performance Insights helps with slow queries.
 - Snapshots ensure recovery in case of failure.
 
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/rds.PNG
-screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/database%20linux.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/rds.PNG
+screenshot > https://github.com/saidtay/cloud-support-journey/blob/main/screenshots/database%20linux.PNG
